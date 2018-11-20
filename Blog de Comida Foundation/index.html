@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link href="css/foundation.css" type="text/css" rel="stylesheet">
+    <link href="css/foundation-icons.css" type="text/css" rel="stylesheet">
+    <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    <title>Blog de comida Foundation</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="row" id="header">
+        <div class="column large-4" id="titulo">
+          <h2>Comida Tipica</h2>
+          <label class="text-right"><em>El Mejor Sazon es lo tradicional</em></label>
+        </div>
+        <div class="column large-8">
+        </div>
+      </div>
+    </header>
+
+    
+    <section>
+      <div class="row" id="section">
+        <div class="column large-4">
+          <div class="row hide-for-small-only hide-for-medium-only" id="panel">
+            <div class="column" >
+              <div class="row collapse postfix-radius">
+                <div class="small-11 column">
+                  <input type="text" placeholder="Buscar...">
+                </div>
+                <div class="small-1 column">
+                  <span class="postfix"><i class="fi-magnifying-glass" id="buscar"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="column" id="panel-item">
+              <div class="row text-center" id="menu">
+                <div class="column" id="item">
+                  <a href="#">Inicio</a>
+                </div>
+                <div class="column" id="item">
+                  <a href="#">Mi plato perfecto</a>
+                </div>
+                <div class="column" id="item">
+                  <a href="#">Mis recetas</a>
+                </div>
+              </div>
+            </div>
+            <div class="column" id="panel-item">
+              Favoritos:
+              <div class="row">
+                <div class="column large-4"><img src="img/2.jpg"  id="img-panel"></div>
+                <div class="column large-4"><img src="img/3.jpg" id="img-panel"></div>
+                <div class="column large-4"><img src="img/4.jpg"  id="img-panel"></div>
+              </div>
+              <div class="row">
+                <div class="column large-4"><img src="img/5.jpg"  id="img-panel"></div>
+                <div class="column large-4"><img src="img/6.jpg" id="img-panel"></div>
+                <div class="column large-4"><img src="img/7.jpg" id="img-panel"></div>
+              </div>
+            </div>
+            <div class="column" id="panel-item">
+              Historial:
+              <div class="row column" id="item-historial">Pepiam</div>
+              <div class="row column" id="item-historial">Vino supremo</div>
+              <div class="row column" id="item-historial">Adobado</div>
+              <div class="row column" id="item-historial">Pollo Horneado</div>
+              <div class="row column" id="item-historial">Antojitos</div>
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="column large-8">
+          <div class="row" id="contenido">
+            <div class="column">
+              <h4>Lomo Relleno</h4>
+              <label><em>20 de Noviembre del 2018</em></label>
+              <img src="img/8.jpg"  id="img-articulo">
+            </div>
+            <div class="column">
+              <p class="text-justify">Lomo de cerdo relleno de tocino, champiñones y nuez, y cubierto con una costra de nuez y pimientas de colores. La receta perfecta para esta Navidad o Año Nuevo.<br>Lomo de cerdo relleno de tocino, champiñones y nuez, y cubierto con una costra de nuez y pimientas de colores. La receta perfecta para esta Navidad o Año Nuevo.
+</p>
+            </div>
+            <div class="column">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <i class="fi-torso" id="torso"></i>
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <textarea name="comentario" cols="80" placeholder="Comentario"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="column"><a class="button small" href="#" id="pencil"><i class="fi-pencil"></i> Publicar</a></div>
+            <div class="column" id="comentario">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <img src="img/avatar-mujer.png" alt="Imagen Avatar" id="avatar">
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <p class="text-left" id="text-comentario"><b>Camila:</b> la mejor comida que he provado esta en este lugar se los recomiento</p>
+                </div>
+                
+              </div>
+              
+            </div>
+<div class="column" id="comentario">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <img src="img/avatar-hombre.png" id="avatar">
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <p class="text-left" id="text-comentario"><b>Juan:</b>  la mejor comida que he provado esta en este lugar se los recomiento</p>
+                </div>
+            <hr>
+
+          <div class="column">
+              <h4>Pollo Frito</h4>
+              <label><em>20 de noviembre del 2018</em></label>
+              <img src="img/lasagna.jpg" alt="Imagen Lasagna" id="img-articulo">
+            </div>
+            <div class="column">
+              <p class="text-justify">Se le llama pollo frito al plato compuesto por trozos de carne de pollo tierno, a veces enharinados o rebozados, y luego fritos. El empanado añade una corteza exterior crujiente que evita la pérdida de los jugos pero también absorbe la grasa usada al freír. </p>
+            </div>
+            <div class="column">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <i class="fi-torso" id="torso"></i>
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <textarea name="comentario" cols="80" placeholder="Comentario"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="column"><a class="button small" href="#" id="pencil"><i class="fi-pencil"></i> Publicar</a></div>
+            <div class="column" id="comentario">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <img src="img/avatar-mujer.png"  id="avatar">
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <p class="text-left" id="text-comentario"><b>Juliana:</b> excelente servicio les recomiendo comprar esta comida.</p>
+                </div>
+              </div>
+            </div>
+            <div class="column" id="comentario">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <img src="img/avatar-hombre.png"  id="avatar">
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <p class="text-left" id="text-comentario"><b>Juan:</b>  la mejor comida que he provado esta en este lugar se los recomiento</p>
+                </div>
+              </div>
+            </div>
+            <div class="column" id="comentario">
+              <div class="row">
+                <div class="column large-2 medium-2 small-2">
+                  <img src="img/avatar-hombre.png" id="avatar">
+                </div>
+                <div class="column large-10 medium-10 small-10">
+                  <p class="text-left" id="text-comentario"><b>Juan:</b>  la mejor comida que he provado esta en este lugar se los recomiento</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Fin del contenido -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

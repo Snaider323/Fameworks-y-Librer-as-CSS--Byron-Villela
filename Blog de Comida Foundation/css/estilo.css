@@ -1,0 +1,112 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: round;;
+}
+#titulo h2,h4,label{
+  text-align: left;
+  text-shadow: 2px 2px 2px #996600;
+	color: white;
+}
+#titulo em{
+  text-align: left;
+  text-shadow: 2px 2px 2px #CC6600;
+	color: white;
+}
+#header, #section{
+  background: rgba(100,44,7,0.4);
+}
+#panel{
+  text-shadow: 1px 1px 8px #996600 ;
+	color: #EEE ;
+  background: rgba(100,44,7,0.4);
+  margin: 0 auto;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  border-radius: 5px 5px 5px 5px;
+}
+#panel-item{
+  padding-bottom: 5%;
+}
+#contenido{
+  background-color: rgba(100,44,7,0.2);
+  margin: 0 auto;
+  padding-top: 2%;
+  border-radius: 5px 5px 5px 5px;
+}
+#section{
+  padding-bottom: 1%;
+  border-radius: 0 0 5px 5px;
+}
+section{
+  padding-bottom: 1%;
+}
+#img-articulo{
+  border: 1px solid #b9b7b7;
+  border-radius: 5px 5px 5px 5px;
+  padding: 0.5%;
+  margin-bottom: 3%;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+#img-panel{
+  border: 1px solid #b9b7b7;
+  border-radius: 5px 5px 5px 5px;
+  padding: 0.5%;
+  margin-bottom: 3%;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+#item{
+  border: 1px solid  #EEE ;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 1%;
+  background-color: #CC6600;
+}
+#item:hover{
+  background-color: #b1b7ce;
+}
+#menu{
+	text-align:left;
+  text-shadow: none !important;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+a{
+  text-decoration: none;
+  color: #EEE;
+}
+#torso{
+  font-size: 230%;
+  float: right;
+}
+#pencil{
+  float: right;
+}
+#buscar{
+  text-shadow: none !important;
+  font-size: 160%;
+  float: left;
+  background-color: #CC6600;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+#item-historial{
+  padding-left: 5%;
+  margin-top: 3%;
+}
+#avatar{
+  width: 45%;
+  float: right;;
+  margin: 5%;
+}
+#comentario{
+  border: 1px solid #c5baba;
+  border-radius: 5px;
+  margin: -1% 0% 2% 3%;
+  width: 95%;
+  float: left !important;
+}
+#text-comentario{
+  margin-top: 2%;
+}
